@@ -1,11 +1,9 @@
 
----
-layout: default
----
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>GitHub Pages Sivuni</title>
+    
 
 
 </head>
