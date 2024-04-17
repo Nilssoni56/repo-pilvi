@@ -1,3 +1,7 @@
-remote_theme: pages-themes/minimal@v0.2.0
-title: Pilvipalvelut Web Kehityksessä
-description: Tervetuloa sivustolle!
+title: Jekyll:iä käyttävä sivusto
+description: Tervetuloa sivustolleni!
+theme: minima
+
+header_pages:
+- index.md
+- vko2.md
