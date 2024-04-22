@@ -9,10 +9,10 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://github.com/Nilssoni56/repo-pilvi/vko3/dist/vite.svg" target="_blank">
+        <a href="https://github.com/Nilssoni56/repo-pilvi/vko3/vite.svg" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
-        <a href="https://github.com/Nilssoni56/repo-pilvi/vko3/dist/assets/react-CHdo91hT.svg" target="_blank">
+        <a href="https://github.com/Nilssoni56/repo-pilvi/vko3/assets/react-CHdo91hT.svg" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
