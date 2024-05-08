@@ -4570,7 +4570,7 @@ Error generating stack: ` +
   return { value: e, source: n, stack: l, digest: null };
 }
 function Al(e, n, t) {
-  return { value: e, source: null, stack: null, digest: n ?? null };
+  return { value: e, source: null, stack: t ?? null, digest: n ?? null };
 }
 function xo(e, n) {
   try {
@@ -4949,7 +4949,7 @@ function id(e, n, t, r, l, o, u) {
   if (!(n.mode & 1)) return pr(e, n, u, null);
   if (l.data === "$!") {
     if (((r = l.nextSibling && l.nextSibling.dataset), r)) var i = r.dgst;
-    return (r = i), (o = Error(y(419))), (r = Al(o, r)), pr(e, n, u, r);
+    return (r = i), (o = Error(y(419))), (r = Al(o, r, void 0)), pr(e, n, u, r);
   }
   if (((i = (u & e.childLanes) !== 0), ce || i)) {
     if (((r = Z), r !== null)) {
@@ -7893,8 +7893,8 @@ nc(), (bi.exports = ge);
 var Td = bi.exports,
   Bi = Td;
 (Ql.createRoot = Bi.createRoot), (Ql.hydrateRoot = Bi.hydrateRoot);
-const Rd = "/assets/react-CHdo91hT.svg",
-  Od = "/vite.svg";
+const Rd = "https://bfm471.github.io/pilvipalvelutTehtava/tehtavat/Vko3/assets/react-CHdo91hT.svg",
+  Od = "https://bfm471.github.io/pilvipalvelutTehtava/tehtavat/Vko3/vite.svg";
 function Md() {
   const [e, n] = el.useState(0);
   return le.jsxs(le.Fragment, {
