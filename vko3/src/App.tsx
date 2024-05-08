@@ -9,15 +9,11 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img
-            src="https://nilssoni56.github.io/repo-pilvi/vko3/assets/react-CHdo91hT.svg"
-            className="logo"
-            alt="Vite logo"
-          />
+        <a href="https://github.io/Nilssoni56/repo-pilvi/vko3/vite.svg" target="_blank">
+          <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
-          <img src="https://nilssoni56.github.io/repo-pilvi/vko3/vite.svg" className="logo react" alt="React logo" />
+        <a href="https://github.io/Nilssoni56/repo-pilvi/vko3/assets/react-CHdo91hT.svg" target="_blank">
+          <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
       <h1>Vite + React</h1>
