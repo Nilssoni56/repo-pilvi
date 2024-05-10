@@ -8406,16 +8406,17 @@ function Md() {
             href: "https://vitejs.dev",
             target: "_blank",
             children: le.jsx("img", {
-              src: "vko4/dist/vite.svg",
+              src: "vko4/vite.svg",
               className: "logo",
               alt: "Vite logo",
             }),
           }),
+
           le.jsx("a", {
             href: "https://react.dev",
             target: "_blank",
             children: le.jsx("img", {
-              src: "vko4/dist/assets/react-CHdo91hT.svg",
+              src: "vko4/assets/react-CHdo91hT.svg",
               className: "logo react",
               alt: "React logo",
             }),
