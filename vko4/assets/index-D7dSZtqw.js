@@ -8405,12 +8405,12 @@ function Md() {
           le.jsx("a", {
             href: "https://vitejs.dev",
             target: "_blank",
-            children: le.jsx("img", { src: Od, className: "logo", alt: "Vite logo" }),
+            children: le.jsx("img", { src: "repo-pilvi/vko4/assets/vite.svg", className: "logo", alt: "Vite logo" }),
           }),
           le.jsx("a", {
             href: "https://react.dev",
             target: "_blank",
-            children: le.jsx("img", { src: Rd, className: "logo react", alt: "React logo" }),
+            children: le.jsx("img", { src: "repo-pilvi/vko4/assets/react-CHdo91hT.svg, className: "logo react", alt: "React logo" }),
           }),
         ],
       }),
