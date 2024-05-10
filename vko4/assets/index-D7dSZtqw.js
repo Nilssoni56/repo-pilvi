@@ -8405,12 +8405,20 @@ function Md() {
           le.jsx("a", {
             href: "https://vitejs.dev",
             target: "_blank",
-            children: le.jsx("img", { src: "repo-pilvi/vko4/assets/vite.svg", className: "logo", alt: "Vite logo" }),
+            children: le.jsx("img", {
+              src: "C:/Users/nicla/Desktop/repo-pilvi/vko4/dist/vite.svg",
+              className: "logo",
+              alt: "Vite logo",
+            }),
           }),
           le.jsx("a", {
             href: "https://react.dev",
             target: "_blank",
-            children: le.jsx("img", { src: "repo-pilvi/vko4/assets/react-CHdo91hT.svg, className: "logo react", alt: "React logo" }),
+            children: le.jsx("img", {
+              src: "C:/Users/nicla/Desktop/repo-pilvi/vko4/dist/assets/react-CHdo91hT.svg",
+              className: "logo react",
+              alt: "React logo",
+            }),
           }),
         ],
       }),
@@ -8438,3 +8446,4 @@ function Md() {
 Ql.createRoot(document.getElementById("root")).render(
   le.jsx(gc.StrictMode, { children: le.jsx(Md, {}) })
 );
+
