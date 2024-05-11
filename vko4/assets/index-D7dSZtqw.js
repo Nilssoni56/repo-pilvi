@@ -8406,7 +8406,7 @@ function Md() {
             href: "https://vitejs.dev",
             target: "_blank",
             children: le.jsx("img", {
-              src: "/vite.svg",
+              src: "vko4/vite.svg",
               className: "logo",
               alt: "Vite logo",
             }),
