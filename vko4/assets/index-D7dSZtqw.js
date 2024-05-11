@@ -8395,7 +8395,7 @@ var Td = es.exports,
   Bi = Td;
 (Ql.createRoot = Bi.createRoot), (Ql.hydrateRoot = Bi.hydrateRoot);
 const Rd = "/repo-pilvi/assets/react-CHdo91hT.svg",
-  Od = "vko4/vite.svg";
+  Od = "./vite.svg";
 function Md() {
   const [e, n] = el.useState(0);
   return le.jsxs(le.Fragment, {
@@ -8406,7 +8406,7 @@ function Md() {
             href: "https://vitejs.dev",
             target: "_blank",
             children: le.jsx("img", {
-              src: "vko4/vite.svg",
+              src: "./vite.svg",
               className: "logo",
               alt: "Vite logo",
             }),
