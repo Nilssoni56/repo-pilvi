@@ -8394,8 +8394,8 @@ ec(), (es.exports = ge);
 var Td = es.exports,
   Bi = Td;
 (Ql.createRoot = Bi.createRoot), (Ql.hydrateRoot = Bi.hydrateRoot);
-const Rd = "/repo-pilvi/vko4/assets/react-CHdo91hT.svg",
-  Od = "/repo-pilvi/vko4/vite.svg";
+const Rd = "/repo-pilvi/assets/react-CHdo91hT.svg",
+  Od = "/repo-pilvi/vite.svg";
 function Md() {
   const [e, n] = el.useState(0);
   return le.jsxs(le.Fragment, {
