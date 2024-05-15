@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>API Data</title>
+  </head>
+  <body>
+    <h2>API datan kutsu</h2>
+    <div id="apiData"></div>
+
+    <script>
+      var xhr = new XMLHttpRequest();
+      var requestUrl = "https://api.restful-api.dev/objects/3";
+      xhr.open("GET", requestUrl, true);
+
+      xhr.onload = function () {
+        var apiDataDiv = document.getElementById("apiData");
+        apiDataDiv.textContent = xhr.responseText;
+      };
+
+      xhr.send();
+    </script>
+  </body>
+</html>
